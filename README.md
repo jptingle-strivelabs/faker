@@ -293,6 +293,27 @@ Faker::Lorem.paragraphs(1, true) #=> ["Depulso animi cunctatio amicitia adficio.
 
 ```
 
+###Faker::Healthcare
+
+```ruby
+
+Faker::Healthcare.hospital #=> "Oak Crest Medica Center"
+
+Faker::Healthcare.pt_clinic #=> "Rose Valley Theraputic Service"
+
+Faker::Healthcare.body_part #=> "Shoulder/Upper Arm"
+
+Faker::Healthcare.icd9 #=> "712.37"
+
+Faker::Healthcare.icd9_description #=> "814.12 : OPEN FRACTURE OF LUNATE (SEMILUNAR) BONE OF WRIST (Wrist)"
+
+Faker::Healthcare.insurance_provider #=> "Health Net of Boston, Inc."
+
+Faker::Healthcare.board_certfied #=> "Dermatology"
+
+```
+
+
 ###Faker::Name
 --------------
 
