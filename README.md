@@ -182,6 +182,7 @@ Faker::Date.backward(14) #=> "Fri, 19 Sep 2014"
 ```
 
 ###Faker::Healthcare
+---------------------
 
 ```ruby
 
