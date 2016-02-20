@@ -192,7 +192,9 @@ Faker::Healthcare.pt_clinic #=> "Rose Valley Theraputic Services"
 
 Faker::Healthcare.body_part #=> "Shoulder/Upper Arm"
 
-Faker::Healthcare.icd9 #=> "712.37"
+Faker::Healthcare.icd9 #=> "712.37" (Very limited set)
+
+Faker::Healthcare.icd10 #=> "S28211S" (Very limited set)
 
 Faker::Healthcare.icd9_description #=> "814.12 : OPEN FRACTURE OF LUNATE (SEMILUNAR) BONE OF WRIST (Wrist)"
 

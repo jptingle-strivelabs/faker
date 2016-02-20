@@ -15,6 +15,10 @@ module Faker
       	fetch('healthcare.icd9')
       end
 
+      def icd10
+        fetch('healthcare.icd10')
+      end
+
       def body_part
       	fetch('healthcare.body_part')
       end

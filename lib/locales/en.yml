@@ -246,6 +246,9 @@ en:
                         "711.21 : ARTHROPATHY IN BEHCET'S SYNDROME INVOLVING SHOULDER REGION (Shoulder/Upper Arm)",
                         "209.35 : MERKEL CELL CARCINOMA OF THE TRUNK (Thoracic)"]
 
+      icd10: ['S91139S','L89003','S28211S','V145XXS','S52379N','T82312D','S52342G','S41152D','S062X2S',
+            'T401X3D','S62125K','T22269D','S12291D','S52025R','H9531','T82848A','R897','I82B12','M86339']
+
     app:
       name: ['Redhold', 'Treeflex', 'Trippledex', 'Kanlam', 'Bigtax', 'Daltfresh', 'Toughjoyfax', 'Mat Lam Tam', 'Otcom', 'Tres-Zap', 'Y-Solowarm', 'Tresom', 'Voltsillam', 'Biodex', 'Greenlam', 'Viva', 'Matsoft', 'Temp', 'Zoolab', 'Subin', 'Rank', 'Job', 'Stringtough', 'Tin', 'It', 'Home Ing', 'Zamit', 'Sonsing', 'Konklab', 'Alpha', 'Latlux', 'Voyatouch', 'Alphazap', 'Holdlamis', 'Zaam-Dox', 'Sub-Ex', 'Quo Lux', 'Bamity', 'Ventosanzap', 'Lotstring', 'Hatity', 'Tempsoft', 'Overhold', 'Fixflex', 'Konklux', 'Zontrax', 'Tampflex', 'Span', 'Namfix', 'Transcof', 'Stim', 'Fix San', 'Sonair', 'Stronghold', 'Fintone', 'Y-find', 'Opela', 'Lotlux', 'Ronstring', 'Zathin', 'Duobam', 'Keylex', 'Andalax', 'Solarbreeze', 'Cookley', 'Vagram', 'Aerified', 'Pannier', 'Asoka', 'Regrant', 'Wrapsafe', 'Prodder', 'Bytecard', 'Bitchip', 'Veribet', 'Gembucket', 'Cardguard', 'Bitwolf', 'Cardify', 'Domainer', 'Flowdesk', 'Flexidy']
       version: ['0.#.#', '0.##', '#.##', '#.#', '#.#.#']

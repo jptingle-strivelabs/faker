@@ -5,6 +5,7 @@ class TestFakerHealthcare < Test::Unit::TestCase
   def setup
     @tester = Faker::Healthcare
     @icd9 = I18n.translate('faker.healthcare.icd9')
+    @icd10 = I18n.translate('faker.healthcare.icd10')
     @icd9_description = I18n.translate('faker.healthcare.icd9_description')
   end
 
@@ -13,6 +14,13 @@ class TestFakerHealthcare < Test::Unit::TestCase
     code2 = @tester.icd9
     assert @icd9.include?(code1)
     assert @icd9.include?(code2)
+  end
+
+  def test_icd10
+    code1 = @tester.icd10
+    code2 = @tester.icd10
+    assert @icd10.include?(code1)
+    assert @icd10.include?(code2)
   end
 
   def test_icd9_description
