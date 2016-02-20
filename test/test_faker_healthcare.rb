@@ -50,6 +50,14 @@ class TestFakerHealthcare < Test::Unit::TestCase
     assert @tester.board_certification.match(/[A-Z][a-z]+\.?/)
   end
 
+  def test_hl7_adt_a01
+    assert @tester.hl7_adt_a01.include? 'PID'
+    assert @tester.hl7_adt_a01.include? 'PV1'
+    assert @tester.hl7_adt_a01.include? 'EVN'
+    assert @tester.hl7_adt_a01.include? 'MSH'
+    assert @tester.hl7_adt_a01.include? 'NK1'
+  end
+
   def test_orthopaedics
     assert @tester.orthopaedics.match(/[A-Z][a-z]+\.?/)
   end
