@@ -198,7 +198,19 @@ Faker::Healthcare.icd9_description #=> "814.12 : OPEN FRACTURE OF LUNATE (SEMILU
 
 Faker::Healthcare.insurance_provider #=> "Health Net of Boston, Inc."
 
-Faker::Healthcare.board_certfied #=> "Dermatology"
+Faker::Healthcare.board_certification #=> "Dermatology"
+
+Faker::Healthcare.doctor #=> "John Oliver, MD"
+
+Faker::Healthcare.nurse #=> "Oliver John, RN"
+
+Faker::Healthcare.physical_therapist #=> "Oliver Johnson, DPT"
+
+Faker::Healthcare.degrees_and_licenses #=> "NP" or "MD", etc.
+
+Faker::Healthcare.pharmaceutical #=> "Lipitor"
+
+Faker::Healthcare.orthopaedics #=> "Knee Replacement Surgery"
 
 ```
 
@@ -595,7 +607,7 @@ Faker::Hipster.word #=> "irony"
 Faker::Hipster.words #=> ["pug", "pitchfork", "chia"]
 Faker::Hipster.words(4) #=> ["ugh", "cardigan", "poutine", "stumptown"]
 Faker::Hipster.words(4, true) #=> ["iste", "seitan", "normcore", "provident"]
-Faker::Hipster.words(4, true, true) #=> ["qui", "magni", "craft beer", "est"] 
+Faker::Hipster.words(4, true, true) #=> ["qui", "magni", "craft beer", "est"]
 
 # Optional arguments: word_count=4, supplemental=false, random_words_to_add=6
 Faker::Hipster.sentence #=> "Park iphone leggings put a bird on it."
