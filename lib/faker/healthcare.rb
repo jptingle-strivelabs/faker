@@ -39,6 +39,10 @@ module Faker
         fetch('healthcare.board_cert')
       end
 
+      def orthopedics
+        fetch('healthcare.orthopedics')
+      end
+
       def insurance_provider
         fetch('healthcare.insurance_provider')
       end

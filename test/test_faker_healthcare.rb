@@ -58,8 +58,8 @@ class TestFakerHealthcare < Test::Unit::TestCase
     assert @tester.hl7_adt_a01.include? 'NK1'
   end
 
-  def test_orthopaedics
-    assert @tester.orthopaedics.match(/[A-Z][a-z]+\.?/)
+  def test_orthopedics
+    assert @tester.orthopedics.match(/[A-Z][a-z]+\.?/)
   end
 
   def test_pharmaceutical

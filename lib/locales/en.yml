@@ -198,7 +198,7 @@ en:
                     'Anesthesiology','Plastic Surgery','Physical Medicine and Rehabilitation',
                     'Preventive Medicine','Family Medicine','Emergency Medicine','Medical Genetics and Genomics']
 
-      orthopaedics: ['Achilles Tendinitis','ACL Injury','Arthritis of the Foot & Ankle',
+      orthopedics: ['Achilles Tendinitis','ACL Injury','Arthritis of the Foot & Ankle',
                     'Arthritis of the Hand','Bunion','Bursitis/Rotator Cuff Tendinitis',
                     'Carpal Tunnel Syndrome','Chronic Shoulder Pain','Common Knee Condition',
                     'Cubital Tunnel Syndrome','Dupuytren’s Contracture','Ganglion Cyst',

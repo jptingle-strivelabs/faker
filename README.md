@@ -210,7 +210,7 @@ Faker::Healthcare.degrees_and_licenses #=> "NP" or "MD", etc.
 
 Faker::Healthcare.pharmaceutical #=> "Lipitor"
 
-Faker::Healthcare.orthopaedics #=> "Knee Replacement Surgery"
+Faker::Healthcare.orthopedics #=> "Knee Replacement Surgery"
 
 Faker::Healthcare.hl7_adt_a01 #=> "MSH|^~\&|EPICADT|DH|LABADT|DH|201301011226||ADT^A01|HL7MSG00001|P|2.3|....."
 
