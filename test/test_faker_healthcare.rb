@@ -26,6 +26,10 @@ class TestFakerHealthcare < Test::Unit::TestCase
     assert @tester.doctor.match(/(\w+\.? ?){2,3}/)
   end
 
+  def test_npi
+    assert @tester.npi.to_s.length == 10
+  end
+
   def test_nurse
     assert @tester.nurse.match(/(\w+\.? ?){2,3}/)
   end

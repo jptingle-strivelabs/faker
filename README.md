@@ -204,6 +204,8 @@ Faker::Healthcare.doctor #=> "John Oliver, MD"
 
 Faker::Healthcare.nurse #=> "Oliver John, RN"
 
+Faker::Healthcare.npi #=> 3646371939
+
 Faker::Healthcare.physical_therapist #=> "Oliver Johnson, DPT"
 
 Faker::Healthcare.degrees_and_licenses #=> "NP" or "MD", etc.

@@ -27,6 +27,10 @@ module Faker
         parse('healthcare.doctor')
       end
 
+      def npi
+        rand(1000000000..9999999999)
+      end
+
       def nurse
         parse('healthcare.nurse')
       end
